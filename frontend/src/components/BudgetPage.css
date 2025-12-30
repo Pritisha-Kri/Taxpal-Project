@@ -1,0 +1,83 @@
+/* === Buttons === */
+.save-btn {
+  background-color: #4b2e83 !important;
+  border-color: #4b2e83 !important;
+  color: #fff !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+
+.save-btn:hover {
+  background-color: #6d4fd1 !important;
+}
+
+.cancel-btn {
+  background-color: #f9f9f9 !important;
+  border-color: #ccc !important;
+  color: #333 !important;
+}
+
+.cancel-btn:hover {
+  background-color: #eaeaea !important;
+}
+
+/* 
+@media (max-width: 992px) {
+  .top-pill {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .health-pill {
+    font-size: 14px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .save-btn, .cancel-btn {
+    width: 48%;
+    font-size: 14px;
+  }
+} */
+
+@media (max-width: 768px) { /* for sm devices */
+  .save-btn, .cancel-btn {
+    width: 100%;
+  }
+
+  .table {
+    font-size: 13px;
+  }
+
+  .form-label {
+    font-size: 13px;
+  }
+
+  .card {
+    padding: 1rem !important;
+  }
+
+  .top-pill h5 {
+    font-size: 18px;
+  }
+
+  .health-pill {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+
+  .save-btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}

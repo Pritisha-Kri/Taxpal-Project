@@ -1,0 +1,134 @@
+/* Layout */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: #111;
+}
+
+/* Sidebar */
+.taxpal-sidebar {
+  width: 220px;
+  background: #4a3276; /* purple */
+  color: #fff;
+  padding: 20px;
+  position: fixed;  /* ✅ keep it fixed to left */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.taxpal-sidebar .brand {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.side-link {
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: block;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.side-link.active, .side-link:hover {
+  background: rgba(255,255,255,0.06);
+}
+
+.sidebar-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0,0,0,0.12);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.sidebar-footer .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* ✅ Main Content */
+.content {
+  flex: 1;
+  background: #f6f6f6;
+  min-height: 100vh;
+  margin-left: 220px; /* ✅ make room for sidebar */
+  padding: 24px;
+  transition: margin 0.3s ease;
+}
+
+/* Top section styles */
+.top-pill {
+  background: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+.health-pill {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+/* Cards */
+.card-like {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+}
+
+.table-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.04);
+}
+
+/* Responsive: collapse sidebar on small devices */
+@media (max-width: 991px) {
+  .taxpal-sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .layout {
+    flex-direction: column;
+  }
+
+  .content {
+    margin-left: 0; /* ✅ remove left margin on small screens */
+    padding: 12px;
+  }
+}
+
+/* Headings and small tweaks */
+.card-like h6 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.main-content {
+  margin-left: 240px;
+  padding: 30px;
+}
+.tax-item {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding: 20px;
+}
+.buttonbg{
+  background-color: #4a3276;
+  color:white;
+}

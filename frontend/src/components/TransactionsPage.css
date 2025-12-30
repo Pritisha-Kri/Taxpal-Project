@@ -1,0 +1,29 @@
+.transactions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.record-buttons-right {
+  display: flex;
+  gap: 10px;
+}
+
+.record-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.income-btn {
+  background: #402e7a;
+  color: white;
+}
+
+.expense-btn {
+  background: #8f84b4;
+  color: white;
+}
