@@ -1,0 +1,165 @@
+# 💼 TaxPal – Personal Finance & Tax Estimator for Freelancers
+
+TaxPal is a full-stack web application that helps freelancers and gig workers
+track income, manage expenses, plan budgets, and estimate taxes efficiently
+through a single, user-friendly platform.
+
+---
+
+## 🚀 Project Overview
+
+Freelancers often deal with irregular income, scattered expense records, and
+complex tax calculations. TaxPal simplifies personal finance management by
+centralizing all financial data and automating budgeting and tax estimation.
+
+This project demonstrates real-world full-stack development skills including
+authentication, REST APIs, database design, and responsive UI development.
+
+---
+
+## 🎯 Problem Statement
+
+- No centralized platform for freelance income & expense tracking  
+- Difficulty in managing category-wise budgets  
+- Manual and error-prone tax estimation  
+- Lack of organized financial reports for tax filing  
+
+**TaxPal addresses these challenges** by providing an automated, secure, and
+scalable financial management system.
+
+---
+
+## ✨ Key Features
+
+- 🔐 Secure user authentication (Login / Signup)
+- 💰 Income and expense tracking
+- 🗂️ Category-wise transaction management
+- 📊 Budget planning with monthly limits
+- 🧮 Region-based tax estimation
+- 🗓️ Quarterly tax reminders
+- 📄 Downloadable financial reports (PDF / CSV)
+- 📱 Fully responsive dashboard UI
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React
+- HTML5
+- CSS3
+- JavaScript
+
+**Backend**
+- Node.js / Java
+
+**Database**
+- MongoDB
+
+**Tools & Platforms**
+- Git & GitHub
+- VS Code
+- Figma (UI/UX Design)
+
+---
+
+## 🧩 Project Modules
+
+### 1. Income & Expense Management
+- Manual transaction entry
+- Transaction history & filtering
+
+### 2. Categorization & Budgeting
+- Category assignment
+- Monthly budget limits
+- Spending insights & charts
+
+### 3. Tax Estimation Engine
+- Country/region-based tax calculation
+- Quarterly tax planning
+- Due date reminders
+
+### 4. Reporting & Export
+- Monthly & quarterly summaries
+- PDF & CSV export for tax filing
+
+---
+
+## 🗄️ Database Design
+
+The database schema is designed to ensure data integrity and scalability.
+
+**Core Entities:**
+- Users
+- Transactions
+- Budgets
+- Tax Estimates
+- Reports
+
+📌 ER diagrams and schema details are available in the `/docs` folder.
+
+---
+
+## 📸 Screenshots
+
+Screenshots of the application UI are available in the `/screenshots` folder.
+
+**Included Screens:**
+- Login & Signup Page  
+- Dashboard  
+- Income & Expense Management  
+- Budget Planner  
+- Tax Estimator  
+- Reports Page  
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Node.js
+- MongoDB
+- Git
+
+### Run the Project Locally
+
+```bash
+git clone https://github.com/your-username/taxpal.git
+cd taxpal
+npm install
+npm start
+
+Frontend runs on:
+
+http://localhost:3000
+
+
+Backend runs on:
+
+http://localhost:5000
+
+📈 Future Enhancements
+
+Bank API integration for automatic transaction import
+AI-based expense categorization
+GST support for Indian freelancers
+Mobile application (React Native)
+Advanced financial analytics
+
+🧠 Learning Outcomes
+
+Full-stack application architecture
+REST API development and integration
+Database schema design & relationships
+Authentication & security fundamentals
+Building real-world finance-focused applications
+
+
+👩‍💻 Author
+
+Pritisha Kumari
+B.Tech CSE Student | Full-Stack (MERN) Developer Aspirant
+
+📌 This project was developed to gain hands-on experience in building scalable,
+production-style web applications.
